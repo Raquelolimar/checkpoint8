@@ -9,7 +9,7 @@ for (var i=0; i<miLista.length; i ++)  {
     console.log(miLista[i]);
 };
 
-const miLista = [
+const miLista2 = [
     "velma", 
     "exploradora", 
     "jane", 
@@ -18,8 +18,8 @@ const miLista = [
 ];
 
 var i = 0;
-while (i <miLista.length) {
-    console.log(miLista[i]);
+while (i <miLista2.length) {
+    console.log(miLista2[i]);
     i ++;
 };
 
