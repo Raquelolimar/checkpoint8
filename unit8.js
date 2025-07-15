@@ -1,4 +1,4 @@
-var miLista = [
+const miLista = [
     "velma", 
     "exploradora", 
     "jane", 
@@ -7,9 +7,9 @@ var miLista = [
 ];
 for (var i=0; i<miLista.length; i ++)  {
     console.log(miLista[i]);
-}
+};
 
-var miLista = [
+const miLista = [
     "velma", 
     "exploradora", 
     "jane", 
@@ -17,11 +17,12 @@ var miLista = [
     "harry"
 ];
 
-while (i<miLista.length) {
+var i = 0;
+while (i <miLista.length) {
     console.log(miLista[i]);
     i ++;
-}
+};
 
 const saludar = () => "Hola Mundo"; 
     console.log(saludar());
-
+ 
